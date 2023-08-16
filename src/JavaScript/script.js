@@ -1,6 +1,5 @@
 class GuessGame {
-
-    difficultyButtons = document.querySelectorAll('.btns');    
+    
     btnGuess = document.getElementById('btnGuess');
     btnReset = document.getElementById('btnReset');
     btnEasy = document.getElementById('btnEasy');
