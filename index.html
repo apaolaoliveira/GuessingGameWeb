@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/Css/style.css">
+    <link rel="icon" href="src/Ico/crystal-ball.ico" type="image/x-icon">
+    <title>Guessing Game</title>
+</head>
+<body>
+    <div class="container">
+        <div id="difficulty">
+            <p>- Welcome to the Guessing Game -</p>
+            <p id="info">Try to guess the secret number <br> between 1 and 20.</p>
+            <p>Choose a difficulty:</p>
+
+            <button id="btnEasy" value="10">Easy</button>
+            <button id="btnMedium" value="5">Medium</button>
+            <button id="btnHard" value="3">Hard</button>
+            
+        </div>
+    
+        <div id="game" class="hidden">
+            <p id="attempts"></p>
+
+            <p id="question">What's your guess?</p>
+            <input type="number" id="guessInput">
+            <button id="btnGuess">Guess</button>
+
+            <p id="feedback"></p>
+            <button id="btnReset" class="hidden">Reset</button>
+        </div>
+    </div>
+    <script src="src/JavaScript/script.js"></script>
+</body>
+</html>

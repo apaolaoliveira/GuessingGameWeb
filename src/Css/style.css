@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    background-color: #18181b;   
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+:root{
+    font-size: 14px;
+}
+
+::selection {
+    background-color:  #a19bf7;
+}
+
+.container {
+    background-color: #262626;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+button{
+    background-color: #3730a3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    margin: 20px 3px 10px 3px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+#game{    
+    width: 400px;
+}
+
+#game input{
+    border-radius: 8px;
+    height: 40px;
+    width: 210px;
+    outline-color: #3730a3;
+    text-align: center;
+    font-size: 2rem;
+    color: #3730a3;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    display: none;    
+}
+
+#info{
+    color: #a19bf7;
+    margin: 15px 0 15px 0;
+}
+
+#feedback, #attempts{
+    font-size: 1.7rem;
+    color: #a19bf7;
+    margin: 15px 0 10px 0;
+}
+
+#question{
+    font-size: 2.5rem;
+}
+
+#btnReset{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.hidden{
+    display: none;
+}
